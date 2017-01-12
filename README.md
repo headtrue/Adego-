@@ -3,4 +3,5 @@ wls# Adego-
 
 # 팀원 목록
 팀장 : 김우성 akstndizz@naver.com
-팀원1 : 박차환 pchkage@gmail.com
+팀원1 : 박창환 pchkage@gmail.com
+팀원2 : 박정은 littlewether@daum.net
