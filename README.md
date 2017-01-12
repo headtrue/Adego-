@@ -5,3 +5,5 @@ wls# Adego-
 팀장 : 김우성 akstndizz@naver.com
 팀원1 : 박창환 pchkage@gmail.com
 팀원2 : 박정은 littlewether@daum.net
+팀원3 : 김아연 zetn333@naver.com
+박창환 바보 멍충이 똥개 크크크크
