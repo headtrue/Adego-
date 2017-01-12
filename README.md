@@ -6,3 +6,4 @@ wls# Adego-
 - 팀원2 : 박정은 littlewether@daum.net
 - 팀원3 : 김아연 zetn333@naver.com
 - 팀원4 : 이명구 leemk.com@gmail.com
+- 팀원5 : 강동훈  new100do@uos.ac.kr
