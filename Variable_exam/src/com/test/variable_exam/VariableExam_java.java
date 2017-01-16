@@ -105,7 +105,7 @@ public class VariableExam_java {
       
       
       do {
-         System.out.println(desc_a +  desc_b + desc_c + desc_d);
+         System.out.println(desc_a + desc_b + desc_c + desc_d);
          System.out.println("당신이 만나고 싶은 남자 타입은 ? \n");
          choice_type = input.nextInt();
       
