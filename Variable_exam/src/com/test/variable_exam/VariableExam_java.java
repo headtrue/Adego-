@@ -3,7 +3,7 @@ package com.test.variable_exam;
 import java.util.Scanner;
 
 public class VariableExam_java {
-		
+		  
 		static String desc_a = "1. 남자A - 그는 순수한 외모와 편안한 미소를 같고 있지만 차가운 도시남자 이미지, \n"
 				+ "현실세계에서는 말이 없지만 키보드를 잡으면 무적이 된다. \n"
 				+ "그.리고 그는 물티슈를 항상 가지고 다니며 쉬는 날에는 혼자 커피를 마시고 쇼핑하기를 즐긴다. \n\n";
