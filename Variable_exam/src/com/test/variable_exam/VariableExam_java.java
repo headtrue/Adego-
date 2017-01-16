@@ -6,7 +6,7 @@ public class VariableExam_java {
       
       static String desc_a = "1. 남자A - 그는 순수한 외모와 편안한 미소를 같고 있지만 차가운 도시남자 이미지, \n"
             + "현실세계에서는 말이 없지만 키보드를 잡으면 무적이 된다. \n"
-            + "그.리고 그는 물티슈를 항상 가지고 다니며 쉬는 날에는 혼자 커피를 마시고 쇼핑하기를 즐긴다. \n\n";
+            + "그리고 그는 물티슈를 항상 가지고 다니며 쉬는 날에는 혼자 커피를 마시고 쇼핑하기를 즐긴다. \n\n";
       
       static String desc_b = "2. 남자B - 시간이 많아 근래에 남자만 만나며 순수하고 착하지만 재미가 없다. \n"
             + "처음 보는 여자 앞에서는 얼굴이 빨개지고 말을 더듬지만 친해지면 평생 여사친으로 연결된다. \n"
@@ -25,7 +25,7 @@ public class VariableExam_java {
       
       int choice_type = 0;
       int choice_exam = 0;
-      int score = 0;
+      //int score = 0;
       Scanner input = new Scanner(System.in);
       
       String[][] question = new String[5][5];
@@ -105,7 +105,8 @@ public class VariableExam_java {
       
       
       do {
-         System.out.println(desc_a + desc_b + desc_c + desc_d);
+         int score = 0;
+         System.out.println(desc_a +  desc_b + desc_c + desc_d);
          System.out.println("당신이 만나고 싶은 남자 타입은 ? \n");
          choice_type = input.nextInt();
       
