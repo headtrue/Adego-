@@ -111,7 +111,7 @@ public class VariableExam_java {
          choice_type = input.nextInt();
       
          
-         for(int i=0; i<question.length; i++) {
+         for(int i=0; i<5; i++) {
             for(int j=0; j<question.length; j++) {
                System.out.println(question[i][j]);
             }
@@ -121,16 +121,16 @@ public class VariableExam_java {
             
             switch(choice_type) {
             case 1 : 
-               score += score_a[i][choice_exam];
+               score += score_a[i][choice_exam-1];
                break;
             case 2 : 
-               score += score_b[i][choice_exam];
+               score += score_b[i][choice_exam-1];
                break;
             case 3 : 
-               score += score_c[i][choice_exam];
+               score += score_c[i][choice_exam-1];
                break;
             case 4 : 
-               score += score_d[i][choice_exam];
+               score += score_d[i][choice_exam-1];
                break;
             }
          }
