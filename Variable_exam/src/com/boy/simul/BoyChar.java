@@ -1,6 +1,6 @@
-package com.test.mls;
+package com.boy.simul;
 
-public class ManChar {
+public class BoyChar {
 
    // 필드
    /*String[] desc = {
@@ -24,7 +24,7 @@ public class ManChar {
    int[][] score;
    
    
-   public ManChar(String desc, int[][] score) {
+   public BoyChar(String desc, int[][] score) {
       this.desc = desc;
       this.score = score;
    }
