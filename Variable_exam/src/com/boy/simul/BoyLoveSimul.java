@@ -1,8 +1,8 @@
-package com.boy.simul;
+package com.test.mls;
 
 import java.util.Scanner;
 
-public class BoyLoveSimul {
+public class MLSMain {
       
       static String desc_a = "1. 남자A - 그는 순수한 외모와 편안한 미소를 같고 있지만 차가운 도시남자 이미지, \n"
             + "현실세계에서는 말이 없지만 키보드를 잡으면 무적이 된다. \n"
