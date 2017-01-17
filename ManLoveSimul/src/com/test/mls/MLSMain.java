@@ -9,7 +9,6 @@ public class MLSMain {
       
       int choice_type = 0;
       int choice_exam = 0;
-      //int score = 0;
       Scanner input = new Scanner(System.in);
       
       String[][] question = new String[5][5];
@@ -45,13 +44,12 @@ public class MLSMain {
       
       
       
-            
       System.out.println("남자 연애 시뮬레이션(남연시) \n\n");
       
       System.out.println("------------------------------------\n\n");
       
       ManChar man = new ManChar();
-      /*String[] desc = */man.manDesc();
+      man.manDesc();
       
       do {
     	  
