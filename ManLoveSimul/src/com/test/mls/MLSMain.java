@@ -45,16 +45,17 @@ public class MLSMain {
       
       
       System.out.println("남자 연애 시뮬레이션(남연시) \n\n");
-      
       System.out.println("------------------------------------\n\n");
+      
       
       ManChar man = new ManChar();
       man.manDesc();
       
+      
       do {
     	  
          int score = 0;
-         int[][] score_entire;
+         int[][] answer;
          
          for(int i=0; i<4; i++) {
         	 System.out.println(man.desc[i]);
@@ -62,7 +63,7 @@ public class MLSMain {
          
          System.out.println("당신이 만나고 싶은 남자 타입은 ? \n");
          choice_type = input.nextInt();
-         score_entire = man.manScore(choice_type);
+         answer = man.manScore(choice_type);
       
          
          for(int i=0; i<5; i++) {
@@ -75,16 +76,16 @@ public class MLSMain {
             
             switch(choice_type) {
             case 1 : 
-               score += score_entire[i][choice_exam-1];
+               score += answer[i][choice_exam-1];
                break;
             case 2 : 
-               score += score_entire[i][choice_exam-1];
+               score += answer[i][choice_exam-1];
                break;
             case 3 : 
-               score += score_entire[i][choice_exam-1];
+               score += answer[i][choice_exam-1];
                break;
             case 4 : 
-               score += score_entire[i][choice_exam-1];
+               score += answer[i][choice_exam-1];
                break;
             }
          }
